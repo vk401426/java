@@ -18,7 +18,7 @@ class detail
 
     void in_detail() throws IOException
     {
-        DataInputStream temp =new DataInputStream(System.in);
+        DataInputStream temp =new DataInputStream(System.in);//hello
         System.out.println("\t\t * * Student Details * *");
         System.out.print("\n\n Name : ");
         name=temp.readLine();
